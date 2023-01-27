@@ -69,11 +69,3 @@ function reset () {
 
 
 randomNum()
-
-
-// arr = []
-// chance = 5
-// userNum.value = ""
-// randomNum()
-// resultBox.textContent = "결과 : 여기에 출력됩니다."
-// chanceBox.textContent = `남은 chance : ${chance}번`
