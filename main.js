@@ -43,6 +43,11 @@ function play () {
         return
     }
 
+    if (isNaN(userValue) == true ){
+        resultBox.textContent = "📍 숫자를 입력해 주세요 📍"
+        return
+    }
+
     chance--
     chanceBox.textContent = `남은 chance : ${chance}번`
     

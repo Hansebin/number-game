@@ -1,0 +1,71 @@
+* {
+    font-family: 'Jua', sans-serif;
+}
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("https://img.freepik.com/premium-vector/cute-small-blue-gingham-plaid-checkered-tartan-pattern-background-perfect-for-wallpaper-backdrop_565280-424.jpg");
+}
+
+.title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    color: rgb(30, 21, 95);
+}
+
+.wrap {
+    width: 90%;
+    max-width: 500px;
+
+    margin: auto;
+
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.334);
+    background-color: rgb(197, 225, 234);
+
+    padding: 30px;
+
+    border-radius: 20px;
+}
+.game-image {
+    text-align: center;
+    font-size: 50px;
+}
+
+.text-box {
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    font-size: 19px;
+
+    background-color: white;
+}
+
+#result-box {
+    margin-bottom: 10px;
+}
+
+.btn-box {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-box > button {
+    width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .btn-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn-box > button {
+        margin-bottom: 10px;
+    }
+}
